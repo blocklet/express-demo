@@ -1,5 +1,5 @@
 name: express-demo
-version: 0.1.4
+version: 1.0.0
 main: ./bin/www.js
 files:
   - blocklet.md
