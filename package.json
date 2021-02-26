@@ -15,6 +15,7 @@
     "start": "node ./bin/www.js",
     "clean": "rm -rf .blocklet",
     "bundle": "npm run clean && blocklet bundle --zip --create-release",
-    "deploy": "npm run bundle && blocklet deploy .blocklet/bundle"
+    "deploy": "npm run bundle && blocklet deploy .blocklet/bundle",
+    "release": "npm run clean && npm run bundle"
   }
 }

@@ -1,6 +1,6 @@
 dep:
 	@echo "Install dependencies required for this repo..."
-	@npm install
+	@yarn
 
 test:
 	@echo "Running test suites..."
@@ -10,3 +10,5 @@ build:
 
 bundle:
 	@npm run bundle
+
+include .makefiles/*.mk
