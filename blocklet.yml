@@ -1,5 +1,5 @@
 name: express-demo
-version: 1.0.1
+version: 1.0.2
 main: ./bin/www.js
 files:
   - blocklet.md
@@ -16,7 +16,7 @@ author:
   name: ArcBlock
 scripts:
   dev: npm run start
-specVersion: 1.0.2
+specVersion: 1.1.1
 did: z8iZkvDaD2pG1KrEa9mHRULGCq3e1kJkVCXRT
 community: ''
 documentation: ''
@@ -42,3 +42,4 @@ charging:
   tokens: []
   shares: []
 children: []
+capabilities: {}
