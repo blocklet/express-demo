@@ -10,6 +10,7 @@ keywords:
   - demo
   - express
 description: Blocklet from local express-demo
+logo: logo.png
 group: dapp
 title: Express Demo
 author:
